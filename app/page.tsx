@@ -329,7 +329,7 @@ export default function CilinGallery() {
         <div className="max-w-7xl mx-auto px-4 pt-6 pb-10">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
-              <Image src="/cilin/celin.png" alt="HIMM CELIN" width={48} height={48} className="w-25 h-25 object-contain" priority />
+              <Image src="/cilin/cilin.png" alt="HIMM CELIN" width={48} height={48} className="w-25 h-25 object-contain" priority />
               <div>
                 <p className="text-sm text-gray-500">معرض</p>
                 <h1 className="text-lg font-extrabold tracking-tight">سيراميك & رخام</h1>
@@ -472,7 +472,9 @@ export default function CilinGallery() {
               <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
                 <iframe
                   title="خريطة المعرض"
-                  src={`https://www.google.com/maps?q=24.774265,46.738586&z=16&hl=ar&output=embed`}
+                  
+
+                  src={`https://www.google.com/maps?q=24.601195,46.785917&z=16&hl=ar&output=embed`}
                   className="w-full h-72 md:h-[420px] border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -531,8 +533,9 @@ export default function CilinGallery() {
       {/* ===== Footer ===== */}
       <footer className="py-8 px-4 text-center text-sm text-gray-600">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-3">
-                        <Image src="/cilin/celin.png" alt="HIMM CELIN" width={48} height={48} className="w-25 h-25 object-contain" priority />
+          <p> مصنع ومعرض همم سيلين</p>
 
+                        <Image src="/cilin/cilin.png" alt="HIMM CELIN" width={48} height={48} className="w-25 h-25 object-contain" priority />
           <p>© {new Date().getFullYear()} جميع الحقوق محفوظة.</p>
         </div>
       </footer>
