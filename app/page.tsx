@@ -213,7 +213,7 @@ const Badge = ({ children }: { children: React.ReactNode }) => (
 /* =======================
    Component
 ======================= */
-export default function CilinGallery(): JSX.Element {
+export default function CilinGallery() {
   const [q, setQ] = useState<string>("");
   const [items, setItems] = useState<MediaItem[]>([]);
   const [activeTags, setActiveTags] = useState<string[]>([]);
