@@ -9,7 +9,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const MANIFEST_URL = "/media_manifest_categorized_final.json";
 const MANIFEST_CSV_URL = "/media_manifest_categorized_final.csv";
 
-const PHONE_RAW = "966530162210";
+const PHONE_RAW = "966501796525";
+
 const WHATSAPP_PHONE = PHONE_RAW.replace(/\D/g, "");
 const PHONE_HREF = `tel:+${WHATSAPP_PHONE}`;
 const waLink = (msg: string) =>
